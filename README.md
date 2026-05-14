@@ -35,17 +35,7 @@ Run the Maven execution target in your terminal:
 .\mvnw.cmd spring-boot:run
 ```
 
-### 2. Expose the Inbound Webhook Port
-
-Expose port `8080` to the internet securely via an HTTPS forwarder like **Ngrok**:
-
-```powershell
-ngrok http 8080
-```
-
-Copy the secure forwarding destination address (e.g., `ngrok-free.app`).
-
-### 3. Connect to the Discord Developer Portal
+### 2. Connect to the Discord Developer Portal
 
 1. Navigate to your Application dashboard at [Discord Developers](https://discord.com).
 2. Locate the **Interactions Endpoint URL** field on the _General Information_ tab.
